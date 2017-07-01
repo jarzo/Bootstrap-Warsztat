@@ -1,0 +1,111 @@
+* {box-sizing: border-box}
+body{margin:0;font-family: 'Roboto Slab',serif;}
+
+a.btn-blue, .btn-blue{
+	background-color: #0ed8d6;
+	border: 1px solid #0ed8d6;
+	font-family:'Montserrat', sans-serif;
+	text-transform: uppercase;
+	color: #fff;
+	transition: all .3s;
+	padding: 15px 30px;
+}
+
+a.btn-blue:hover, .btn-blue:hover{
+	background-color: #fff;
+	border: 1px solid #0ed8d6;
+	color:#0ed8d6;
+}
+
+h1{
+	font-size:4em;
+}
+/*
+font-family: 'Droid Serif', serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Roboto Slab', serif;
+*/
+
+/* Moje Menu
+nav.navbar {
+	background-color: #0ed8d6;
+}
+
+#logobootstrap {
+	color: #fff;
+	font-family: 'Droid Serif', serif;
+	font-weight: 700;
+	font-style: italic;
+	font-size: 25px
+}
+.navbar-default .navbar-nav>li>a {
+	color:#fff;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+}*/
+
+/*Wojtka Menu start*/
+#main-nav{
+	background-color: transparent;
+	border:0;
+}
+
+#main-nav a.navbar-brand{
+	font-size: 2em;
+	font-family: 'Droid Serif', sans-serif;
+	text-transform: none;
+	font-style: italic;
+}
+
+#main-nav a{
+	color: #fff;
+	text-transform: uppercase;
+	font-family:'Montserrat', sans-serif;
+	font-weight: 700;
+	
+}
+
+#main-nav a:hover{
+	color:#0ed8d6;
+}
+
+/*Wojtka Menu stop*/
+/*Header wojtka start*/
+#main-header{
+	height: 100vh;
+	background-image:linear-gradient(to bottom, rgba(0,0,0,0.4),rgba(0,0,0,0.4)),
+		url(../img/header/pictures_on_the_wall.jpg);
+	background-size: cover;
+	position: relative;
+}
+#main-header .header-caption {
+	position: absolute;
+	top:50%;
+	transform: translateY(-50%);
+	left:0;
+	right: 0;
+	margin: auto;
+	text-align: center;
+}
+
+#main-header .header-caption h1{
+	color:#fff;
+	margin: 45px 0;
+}
+
+#main-header .header-caption h2{
+	color: #fff;
+	font-family: 'Droid Serif', sans-serif;
+	font-style: italic;
+}
+
+
+/*Header wojtka stop*/
+
+/*Moj header*/
+/*
+#header-foto{
+	background-image: url(../img/header/pictures_on_the_wall.jpg);
+	height: 100vh;
+	width: 100%;
+}*/
