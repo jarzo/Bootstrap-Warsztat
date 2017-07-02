@@ -1,5 +1,9 @@
 * {box-sizing: border-box}
-body{margin:0;font-family: 'Roboto Slab',serif;}
+body{
+	margin:0;font-family: 'Roboto Slab',serif;
+	color:#777;
+	font-style: italic;
+}
 
 a.btn-blue, .btn-blue{
 	background-color: #0ed8d6;
@@ -25,6 +29,8 @@ h1, h2, h3, h4, h5, h6{
 	font-family:'Montserrat', sans-serif;
 	color:#333;
 }
+
+
 /*
 font-family: 'Droid Serif', serif;
 font-family: 'Montserrat', sans-serif;
@@ -173,6 +179,7 @@ margin-top: 5%;
 
 /* Sekcja Portfoli Start */
 
+/*
 
 #portfolio{
 	height: 120vh;
@@ -206,6 +213,33 @@ margin-top: 5%;
 	color: #777777;
 	font-style: italic;
 	font-size: 0.8em;
+}
+*/
+
+		/*WOJTEK!!!*/
+#portfolio{
+	background-color: #f7f7f7;
+}
+h3.section-heading{
+	font-size: 3em;
+	font-weight: 700;
+}
+
+#portfolio .single-portfolio-item{
+	background-color: #fff;
+	margin-bottom: 20px;
+}
+
+#portfolio .portfolio-image-container{
+	height:300px;
+	overflow: hidden;
+}
+
+#portfolio .single-portfolio-item .portfolio-image{
+	background-position: center;
+	background-size: cover;
+	height: 100%;
+	position: relative;
 }
 
 
